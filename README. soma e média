@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro a
+	inteiro b
+	inteiro c
+	inteiro d
+	inteiro f
+	inteiro media
+	
+		escreva("digite 5 números \n")
+		leia(a, b, c, d, f)
+
+		escreva("Soma de todos é ", a + b + c + d + f, "\n")
+
+		media = (a + b + c + d + f) / 5
+		
+		escreva("e a média é ", media, "\n")
+	}
+}
