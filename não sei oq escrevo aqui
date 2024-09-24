@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro A
+		inteiro B
+		inteiro anos
+
+		anos = 0
+		A = 80000
+		B = 200000
+	
+	
+		enquanto(A < B){
+
+			A = A * 1.03	
+			B = B * 1.015
+			
+			anos = anos + 1
+		
+		}
+
+		escreva("levou ", anos, " anos para a cidade A alcancar B")
+
+
+	}
+}
