@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a
+		inteiro b
+		inteiro c
+		inteiro d
+		inteiro f
+		inteiro maior
+		escreva("escreva 5 numeros: ")
+		leia(a, b, c, d, f)
+
+		maior = a
+		
+		se(b > maior){
+			maior = b
+		}
+		
+		se(c > maior){
+			maior = c
+		}
+
+		se(d > maior){
+			maior = d
+		}
+
+		se(f > maior){
+			f = maior
+		}
+
+		escreva("o maior valor e ", maior)
+	}
+}
